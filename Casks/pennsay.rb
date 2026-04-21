@@ -9,6 +9,11 @@ cask "pennsay" do
 
   app "PennSay.app"
 
+  postflight do
+    system_command "/usr/bin/tccutil",
+                   args: ["reset", "Accessibility", "com.voiceinput.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.voiceinput.app.plist",
     "~/Library/Application Support/DoubaoMurmur",
