@@ -1,8 +1,8 @@
 cask "pennsay" do
-  version "1.0.3,3"
-  sha256 "cbe24d868d68b533db97865ad723766c91779c1f79617e88f132171539fdcb6d"
+  version "1.0.4"
+  sha256 "5f0906d78f358194dc3d35ae7225a76e637e8d36a38b7e6e671794d17e321bcf"
 
-  url "https://github.com/penn6174/pennsay/releases/download/v#{version.before_comma}/PennSay-v#{version.before_comma}.dmg"
+  url "https://github.com/penn6174/pennsay/releases/download/v#{version}/PennSay-v#{version}.dmg"
   name "PennSay"
   desc "macOS voice input with LLM refinement by PENN"
   homepage "https://github.com/penn6174/pennsay"
