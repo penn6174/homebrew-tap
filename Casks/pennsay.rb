@@ -13,7 +13,8 @@ cask "pennsay" do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/PennSay.app"]
     system_command "/usr/bin/tccutil",
-                   args: ["reset", "Accessibility", "com.voiceinput.app"]
+                   args: ["reset", "Accessibility", "com.voiceinput.app"],
+                   must_succeed: false
   end
 
   zap trash: [
