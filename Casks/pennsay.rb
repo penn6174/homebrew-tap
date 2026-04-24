@@ -1,6 +1,6 @@
 cask "pennsay" do
-  version "1.0.7,10"
-  sha256 "8d5c474941dbb22510139acb4cd58849597e723075dd789ceb196e2ff85fe03d"
+  version "1.0.8,11"
+  sha256 "bc7313cbd67a16a9d561a7690553249fb489990684bf857af30a9d50a0cae786"
 
   url "https://github.com/penn6174/pennsay/releases/download/v#{version.before_comma}/PennSay-v#{version.before_comma}.dmg"
   name "PennSay"
